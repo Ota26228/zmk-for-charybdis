@@ -22,7 +22,7 @@
 &none  &mt TAB Q  &kp W           &kp E       &kp R     &kp T               &kp Y        &kp U       &kp I      &kp O            &mt BACKSPACE P  &none
 &none  &kp A      &mt LEFT_ALT S  &kp D       &kp F     &kp G               &kp H        &kp J       &kp K      &mt RIGHT_ALT L  &mt ENTER SEMI   &none
 &none  &kp Z      &kp X           &kp C       &kp V     &kp B               &kp N        &kp M       &kp COMMA  &kp DOT          &lt 3 SLASH      &none
-                                  &kp ESCAPE  &kp LWIN  &lt 2 LEFT_SHIFT    &lt 1 ENTER  &lt 1 BSPC
+                                  &kp ESCAPE  &kp LWIN  &lt 2 LEFT_SHIFT    &lt 2 ENTER  &lt 1 BSPC
                                               &none     &none               &none
             >;
         };
@@ -32,7 +32,7 @@
 &none  &none             &none         &none         &none         &none                   &none  &none      &none      &none         &none     &none
 &none  &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET       &none  &none      &none      &none         &none     &none
 &none  &kp SEMICOLON     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp EQUAL               &none  &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LCMD  &none
-&none  &kp TILDE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NON_US_BACKSLASH    &none  &none      &none      &none         &none     &none
+&none  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NON_US_BACKSLASH    &none  &none      &none      &none         &none     &none
                                        &kp PERIOD    &kp N0        &kp MINUS               &none  &none
                                                      &none         &none                   &none
             >;
@@ -40,12 +40,12 @@
 
         layer_2 {
             bindings = <
-&none          &none               &none               &none               &kp F4              &kp F5                &kp F6              &kp F7              &kp F8              &kp F9              &kp F10              &kp F11
-&kp LS(GRAVE)  &mt F1 KP_NUMBER_1  &mt F2 KP_NUMBER_2  &mt F3 KP_NUMBER_3  &mt F4 KP_NUMBER_4  &mt F5 KP_NUMBER_5    &mt F6 KP_NUMBER_6  &mt F7 KP_NUMBER_7  &mt F8 KP_NUMBER_8  &mt F9 KP_NUMBER_9  &mt F10 KP_NUMBER_0  &none
-&kp LSHFT      &kp NUMBER_1        &kp NUMBER_2        &kp KP_NUMBER_3     &kp KP_NUMBER_4     &kp KP_NUMBER_5       &kp KP_NUMBER_6     &kp KP_NUMBER_7     &kp KP_NUMBER_8     &kp KP_NUMBER_9     &kp KP_NUMBER_0      &none
-&kp LCTRL      &kp LS(N9)          &kp LS(N0)          &kp LS(MINUS)       &kp LS(EQUAL)       &none                 &none               &kp LEFT            &kp DOWN            &kp RIGHT           &kp F12              &none
-                                                       &kp ESCAPE          &kp LWIN            &kp ENTER             &trans              &kp RIGHT_ALT
-                                                                           &none               &none                 &none
+&none  &none           &none       &none                 &none                  &none              &none   &none      &none      &none         &none     &none
+&none  &kp LEFT_BRACE  &kp AMPS    &kp ASTERISK          &kp LEFT_BRACE         &kp RIGHT_BRACE    &none   &none      &none      &none         &none     &none
+&none  &kp COLON       &kp DOLLAR  &kp PERCENT           &kp CARET              &kp PLUS           &none   &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LWIN  &none
+&none  &kp TILDE       &kp EXCL    &kp AT                &kp HASH               &kp PIPE           &none   &none      &none      &none         &none     &none
+                                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &trans  &none
+                                                         &none                  &none              &none
             >;
         };
 
